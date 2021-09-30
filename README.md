@@ -7,7 +7,7 @@ Duplicates in this context, are defined as the original versions of images if an
 * Java
 ## Setup
 1.) Clone the repo. <br>
-2.) Insert the desired directory path to be pruned for the variable directoryPath on line 7 in the file and run.
+2.) Insert the desired directory path to be pruned for the variable `directoryPath` on line 7 in the file and run.
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
