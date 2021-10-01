@@ -4,10 +4,19 @@ This snippet of code cleans up unwanted .AAE files and "duplicates" of images cr
 
 Duplicates in this context, are defined as the original versions of images if an edited version of it exists.
 ### Built With
-* Java
+* [Java](https://www.java.com/en/)
 ## Setup
-1.) Clone the repo. <br>
-2.) Insert the desired directory path to be pruned for the variable `directoryPath` on line 7 in the file and run.
+1. Clone the repo. <br>
+2. Insert the desired directory path to be pruned for the variable `directoryPath` on line 7 in the file and run.
+## Contributing
+<ol>
+  <li> Fork the Project </li>
+  <li> Create your Feature Branch  </li>
+  <li> Commit your Changes  </li>
+  <li> Push to the Branch  </li>
+  <li> Open a Pull Request </li>
+</ol>
+
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
