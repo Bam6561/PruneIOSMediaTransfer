@@ -5,6 +5,9 @@
 This snippet of code cleans up unwanted .AAE files and "duplicates" of images created by the native IPhone camera roll editing environment. 
 
 Duplicates in this context, are defined as the original versions of images if an edited version of it exists.
+
+[Version History](https://ndanny09.github.io/iosimagetransferprune.html)
+
 ### Built With
 * [Java](https://www.java.com/en/)
 ## Setup
