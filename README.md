@@ -1,5 +1,5 @@
 # IOS Image Transfer Prune
-<img src="https://i.ibb.co/jgpYdYq/IOSTransfer-Image-Prune.png" alt="IOSTransfer-Image-Prune" width="128" height="128">
+<img src="https://i.ibb.co/Y0f39rX/IOSImage-Transfer-Prune.png" alt="IOSImage-Transfer-Prune" width="128" height="128">
 
 ## About The Project
 This snippet of code cleans up unwanted .AAE files and "duplicates" of images created by the native IPhone camera roll editing environment. 
