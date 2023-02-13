@@ -27,7 +27,6 @@ public class IOSImageTransferPrune {
               file.delete();
               pruneCounter++;
             }
-
             // Classify image files
             if (fileName.substring(0, 4).equals("IMG_")) {
               if (!fileName.contains("E")) { // Original
@@ -50,7 +49,6 @@ public class IOSImageTransferPrune {
             pruneCounter++;
           }
         }
-
         System.out.println("Directory pruned of (" +pruneCounter +") files.");
       } catch (Exception e) {
         System.out.println("An error occurred while parsing the directory.");
