@@ -47,6 +47,7 @@ public class IOSImageTransferPrune {
       }
 
       System.out.println("Directory pruned of (" + filesDeleted + ") files.");
+      
     } catch (NullPointerException e) {
       System.out.println("There are no files within this directory path.");
     } catch (Exception e) {
