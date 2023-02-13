@@ -1,29 +1,31 @@
-# IOS Image Transfer Prune
-<img src="https://i.ibb.co/Y0f39rX/IOSImage-Transfer-Prune.png" alt="IOSImage-Transfer-Prune" width="128" height="128">
+<div align="center">
+  <h3>IOS Image Transfer Prune</h3>
+  <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSImageTransferPrune">
+</div>
 
 ## About The Project
-This snippet of code cleans up unwanted .AAE files and "duplicates" of images created by the native IPhone camera roll editing environment. 
+Deletes original versions of images if an edited version of it exists and their .AAE files leftover from transferring images from the IPhone camera roll.
 
-Duplicates in this context, are defined as the original versions of images if an edited version of it exists.
-
-[Version History](https://ndanny09.github.io/iosimagetransferprune.html)
-
-### Built With
-* [Java](https://www.java.com/en/)
 ## Setup
-1. Clone the repo. <br>
-2. Insert the desired directory path to be pruned for the variable `directoryPath` on line 7 in the file and run.
+1. Clone the repo.
+2. Find the directory you want to prune, then copy its address as text.
+2. Paste the address for the value of the variable `directoryPath` on line 7.
+4. Run the program.
+
 ## Contributing
-<ol>
-  <li> Fork the Project </li>
-  <li> Create your Feature Branch  </li>
-  <li> Commit your Changes  </li>
-  <li> Push to the Branch  </li>
-  <li> Open a Pull Request </li>
-</ol>
+1. Fork the Project
+2. Create your Feature Branch
+3. Commit your Changes
+4. Push to the Branch
+5. Open a Pull Request
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
+
 ## Contact
-Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmail.com <br>
-Project Link: https://github.com/ndanny09/IOSImageTransferPrune
+Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmail.com
+
+Project Link: <https://github.com/Bam6561/IOSImageTransferPrune>
+
+## Acknowledgements
+* [README Template](https://github.com/othneildrew/Best-README-Template)
