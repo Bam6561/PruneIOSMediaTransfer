@@ -2,7 +2,8 @@
   <h3>IOS Image Transfer Prune</h3>
   <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSImageTransferPrune">
   
-  ![GitHub Repo stars](https://img.shields.io/github/stars/Bam6561/IOSImageTransferPrune) ![GitHub](https://img.shields.io/github/license/Bam6561/IOSImageTransferPrune)
+  [![Stargazers][stars-shield]][stars-url] [![License][license-shield]][license-url]
+  
 </div>
 
 ## About The Project
@@ -31,3 +32,8 @@ Project Link: <https://github.com/Bam6561/IOSImageTransferPrune>
 
 ## Acknowledgements
 * [README Template](https://github.com/othneildrew/Best-README-Template)
+
+[stars-shield]: https://img.shields.io/github/stars/Bam6561/IOSImageTransferPrune
+[stars-url]: https://github.com/Bam6561/IOSImageTransferPrune/stargazers
+[license-shield]: https://img.shields.io/github/license/Bam6561/IOSImageTransferPrune
+[license-url]: https://github.com/Bam6561/IOSImageTransferPrune/blob/main/LICENSE
