@@ -1,6 +1,8 @@
 <div align="center">
   <h3>IOS Image Transfer Prune</h3>
   <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSImageTransferPrune">
+  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/Bam6561/IOSImageTransferPrune) ![GitHub](https://img.shields.io/github/license/Bam6561/IOSImageTransferPrune)
 </div>
 
 ## About The Project
