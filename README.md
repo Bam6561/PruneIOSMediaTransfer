@@ -7,7 +7,7 @@
 </div>
 
 ## About The Project
-Deletes original versions of images if an edited version of it exists and cleans up .AAE files leftover from transferring images from the IPhone camera roll.
+Deletes original images if an edited version exists and cleans up .AAE files leftover from IPhone image transfers.
 
 ## Setup
 1. Clone the repo.
