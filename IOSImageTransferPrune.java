@@ -16,12 +16,12 @@ public class IOSImageTransferPrune {
         String fileName = file.getName();
         int fileLength = fileName.length();
 
-        // Skip non-valid files
+        // Skip too short file names
         if (fileLength < 4) {
           continue;
         }
 
-        // Delete .AAE files or classify images
+        // Delete .AAE files or sort image IDs
         if (fileName.substring(fileLength - 4, fileLength).equals(".AAE")) {
           file.delete();
           filesDeleted++;
@@ -35,10 +35,10 @@ public class IOSImageTransferPrune {
         }
       }
 
-      // Check for intersections
+      // Only keep original image IDs that match with an edited image ID
       originalImageIDs.retainAll(editedImageIDs);
 
-      // Delete original image if an edited version of it exists
+      // Delete matched original images
       for (File file : images) {
         if (originalImageIDs.contains(file.getName().substring(4, 8))) {
           file.delete();
