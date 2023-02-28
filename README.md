@@ -7,13 +7,18 @@
 </div>
 
 ## About The Project
-Deletes original images if an edited version exists and cleans up .AAE files leftover from IPhone image transfers.
+Deletes original images if an edited version exists and cleans up .AAE files leftover from iPhone image transfers.
 
 ## Setup
 1. Clone the repo.
 2. Find the directory you want to prune, then copy its address as text.
 2. Paste the address for the value of the variable `directoryPath` on line 7.
 4. Run the program.
+
+## Usage
+Shown below is a picture of my own usage of the program to prune approximately a month's worth of photos.
+
+<img src="https://i.ibb.co/3WyvgV7/IOSImage-Transfer-Prune-Before-After.jpg" alt="IOSImage-Transfer-Prune-Before-After">
 
 ## Contributing
 1. Fork the Project
