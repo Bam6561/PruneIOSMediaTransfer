@@ -1,5 +1,6 @@
 <a name="top"></a>
 
+<!-- LOGO -->
 <div align="center">
   <h3>IOS Image Transfer Prune</h3>
   <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSImageTransferPrune">
