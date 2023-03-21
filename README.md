@@ -25,7 +25,7 @@
 ## About The Project
 Deletes original images if an edited version exists and cleans up .AAE files leftover from iPhone image transfers.
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- SETUP -->
 ## Setup
@@ -34,7 +34,7 @@ Deletes original images if an edited version exists and cleans up .AAE files lef
 2. Paste the address for the value of the variable `directoryPath` on line 7.
 4. Run the program.
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- USAGE -->
 ## Usage
@@ -42,7 +42,7 @@ Shown below is a picture of my own usage of the program to prune approximately a
 
 <img src="https://i.ibb.co/3WyvgV7/IOSImage-Transfer-Prune-Before-After.jpg" alt="IOSImage-Transfer-Prune-Before-After">
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -52,13 +52,13 @@ Shown below is a picture of my own usage of the program to prune approximately a
 4. Push to the Branch
 5. Open a Pull Request
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- CONTACT -->
 ## Contact
@@ -66,13 +66,13 @@ Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmai
 
 Project Link: <https://github.com/Bam6561/IOSImageTransferPrune>
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [README Template](https://github.com/othneildrew/Best-README-Template)
 
-<p align="right"><a href="#top">Go to Top</a></p>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- SHIELDS -->
 [stars-shield]: https://img.shields.io/github/stars/Bam6561/IOSImageTransferPrune
