@@ -2,8 +2,8 @@
 
 <!-- LOGO -->
 <div align="center">
-  <h3>IOS Image Transfer Prune</h3>
-  <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSImageTransferPrune">
+  <h3>IOS Media Transfer Prune</h3>
+  <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSMediaTransferPrune">
   
   [![Stargazers][stars-shield]][stars-url] [![License][license-shield]][license-url]
 </div>
@@ -23,7 +23,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Deletes original images if an edited version exists and cleans up .AAE files leftover from iPhone image transfers.
+Deletes original images and videos if an edited version exists and cleans up .AAE files leftover from iPhone media transfers.
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -31,7 +31,7 @@ Deletes original images if an edited version exists and cleans up .AAE files lef
 ## Setup
 1. Clone the repo.
 2. Find the directory you want to prune, then copy its address as text.
-2. Paste the address for the value of the variable `directoryPath` on line 7.
+2. Paste the address for the value of the variable `directory` on line 15.
 4. Run the program.
 
 <p align="right"><a href="#top">Back to Top</a></p>
@@ -40,7 +40,7 @@ Deletes original images if an edited version exists and cleans up .AAE files lef
 ## Usage
 Shown below is a picture of my own usage of the program to prune approximately a month's worth of photos.
 
-<img src="https://i.ibb.co/3WyvgV7/IOSImage-Transfer-Prune-Before-After.jpg" alt="IOSImage-Transfer-Prune-Before-After">
+<img src="https://i.ibb.co/3WyvgV7/IOSImage-Transfer-Prune-Before-After.jpg" alt="IOSMedia-Transfer-Prune-Before-After">
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -64,7 +64,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmail.com
 
-Project Link: <https://github.com/Bam6561/IOSImageTransferPrune>
+Project Link: <https://github.com/Bam6561/IOSMediaTransferPrune>
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -75,7 +75,7 @@ Project Link: <https://github.com/Bam6561/IOSImageTransferPrune>
 <p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- SHIELDS -->
-[stars-shield]: https://img.shields.io/github/stars/Bam6561/IOSImageTransferPrune
-[stars-url]: https://github.com/Bam6561/IOSImageTransferPrune/stargazers
-[license-shield]: https://img.shields.io/github/license/Bam6561/IOSImageTransferPrune
-[license-url]: https://github.com/Bam6561/IOSImageTransferPrune/blob/main/LICENSE
+[stars-shield]: https://img.shields.io/github/stars/Bam6561/IOSMediaTransferPrune
+[stars-url]: https://github.com/Bam6561/IOSMediaTransferPrune/stargazers
+[license-shield]: https://img.shields.io/github/license/Bam6561/IOSMediaTransferPrune
+[license-url]: https://github.com/Bam6561/IOSMediaTransferPrune/blob/main/LICENSE
