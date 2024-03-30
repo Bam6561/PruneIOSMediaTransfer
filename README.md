@@ -31,7 +31,7 @@ Deletes original images and videos if an edited version exists and cleans up .AA
 ## Setup
 1. Clone the repo.
 2. Find the directory you want to prune, then copy its address as text.
-2. Paste the address for the value of the variable `directory` on line 15.
+2. Paste the address for the value of the variable `directory` on line 18.
 4. Run the program.
 
 <p align="right"><a href="#top">Back to Top</a></p>
