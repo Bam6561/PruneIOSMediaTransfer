@@ -8,7 +8,7 @@ import java.util.Set;
  * version exists and cleans up .AAE files leftover from IPhone media transfers.
  *
  * @author Danny Nguyen
- * @version 2.1.0
+ * @version 2.2.0
  * @since 1.0
  */
 public class IOSMediaTransferPrune {
@@ -34,12 +34,16 @@ public class IOSMediaTransferPrune {
     }
     File[] files = source.listFiles();
     if (files.length == 0) {
-      System.out.println("No files in directory.");
+      System.out.println("Source directory is empty.");
       return;
     }
+
+    long start = System.currentTimeMillis();
     Arrays.sort(files);
     pruneFiles(files);
-    System.out.println("Directory pruned of (" + filesDeleted + ") files.");
+
+    long end = System.currentTimeMillis();
+    System.out.println("Pruned " + filesDeleted + " files in " + millisecondsToMinutesSeconds(end - start) + ".");
   }
 
   /**
@@ -50,18 +54,36 @@ public class IOSMediaTransferPrune {
   private static void pruneFiles(File[] files) {
     Set<String> editedIds = new HashSet<>();
 
-    for (int i = files.length - 1; i > 0; i++) {
+    for (int i = files.length - 1; i > 0; i--) {
       File file = files[i];
+      if (!file.isFile()) {
+        continue;
+      }
+
       String name = file.getName();
       if (name.endsWith(".AAE")) {
+        System.out.println("Deleted file: " + file.getPath().substring(source.getPath().length()));
         file.delete();
         filesDeleted++;
       } else if (name.startsWith("IMG_E")) {
         editedIds.add(name.substring(5, name.indexOf(".")));
       } else if (name.startsWith("IMG_") && editedIds.contains(name.substring(4, name.indexOf(".")))) {
+        System.out.println("Deleted file: " + file.getPath().substring(source.getPath().length()));
         file.delete();
         filesDeleted++;
       }
     }
+  }
+
+  /**
+   * Converts milliseconds to minutes and seconds.
+   *
+   * @param duration elapsed time in milliseconds
+   * @return minutes and seconds
+   */
+  private static String millisecondsToMinutesSeconds(long duration) {
+    long minutes = duration / 60000L % 60;
+    long seconds = duration / 1000L % 60;
+    return ((minutes == 0 ? "" : minutes + "m ") + (seconds == 0 ? "0s" : seconds + "s ")).trim();
   }
 }
