@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * IOSMediaTransferPrune deletes original images and videos if an edited
- * version exists and cleans up .AAE files leftover from IPhone media transfers.
+ * Deletes original images and videos if an edited version exists 
+ * and cleans up .AAE files leftover from IPhone media transfers.
  *
  * @author Danny Nguyen
  * @version 2.3.0
