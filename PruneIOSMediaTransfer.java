@@ -11,7 +11,7 @@ import java.util.Set;
  * @version 2.3.0
  * @since 1.0
  */
-public class IOSMediaTransferPrune {
+public class PruneIOSMediaTransfer {
   /**
    * Directory to be pruned.
    */

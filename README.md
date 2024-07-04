@@ -2,7 +2,7 @@
 
 <!-- LOGO -->
 <div align="center">
-  <h3>IOS Media Transfer Prune</h3>
+  <h3>Prune IOS Media Transfer</h3>
   <img src="https://i.ibb.co/q9RF7My/IOSImage-Transfer-Prune128x128.png" alt="IOSMediaTransferPrune">
   
   [![Stargazers][stars-shield]][stars-url] [![License][license-shield]][license-url]
