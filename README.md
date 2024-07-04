@@ -65,7 +65,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Danny Nguyen - [LinkedIn](https://www.linkedin.com/in/ndanny09/) - ndanny09@gmail.com
 
-Project Link: <https://github.com/Bam6561/IOSMediaTransferPrune>
+Project Link: <https://github.com/Bam6561/PruneIOSMediaTransfer>
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
@@ -76,7 +76,7 @@ Project Link: <https://github.com/Bam6561/IOSMediaTransferPrune>
 <p align="right"><a href="#top">Back to Top</a></p>
 
 <!-- SHIELDS -->
-[stars-shield]: https://img.shields.io/github/stars/Bam6561/IOSMediaTransferPrune
-[stars-url]: https://github.com/Bam6561/IOSMediaTransferPrune/stargazers
-[license-shield]: https://img.shields.io/github/license/Bam6561/IOSMediaTransferPrune
-[license-url]: https://github.com/Bam6561/IOSMediaTransferPrune/blob/main/LICENSE
+[stars-shield]: https://img.shields.io/github/stars/Bam6561/PruneIOSMediaTransfer
+[stars-url]: https://github.com/Bam6561/PruneIOSMediaTransfer/stargazers
+[license-shield]: https://img.shields.io/github/license/Bam6561/PruneIOSMediaTransfer
+[license-url]: https://github.com/Bam6561/PruneIOSMediaTransfer/blob/main/LICENSE
