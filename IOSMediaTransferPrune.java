@@ -8,7 +8,7 @@ import java.util.Set;
  * version exists and cleans up .AAE files leftover from IPhone media transfers.
  *
  * @author Danny Nguyen
- * @version 2.2.0
+ * @version 2.3.0
  * @since 1.0
  */
 public class IOSMediaTransferPrune {
@@ -18,12 +18,7 @@ public class IOSMediaTransferPrune {
   private static final File source = new File("SOURCE DIRECTORY");
 
   /**
-   * Number of files deleted.
-   */
-  private static int filesDeleted = 0;
-
-  /**
-   * Checks if the {@link #source} input is valid before parsing the file system.
+   * Checks if the {@link #source} input is valid before traversing the file system.
    *
    * @param args user provided arguments
    */
@@ -40,7 +35,7 @@ public class IOSMediaTransferPrune {
 
     long start = System.currentTimeMillis();
     Arrays.sort(files);
-    pruneFiles(files);
+    int filesDeleted = pruneFiles(files);
 
     long end = System.currentTimeMillis();
     System.out.println("Pruned " + filesDeleted + " files in " + millisecondsToMinutesSeconds(end - start) + ".");
@@ -50,9 +45,11 @@ public class IOSMediaTransferPrune {
    * Deletes original media if an edited version exists.
    *
    * @param files directory files
+   * @return number of files deleted
    */
-  private static void pruneFiles(File[] files) {
+  private static int pruneFiles(File[] files) {
     Set<String> editedIds = new HashSet<>();
+    int filesDeleted = 0;
 
     for (int i = files.length - 1; i > 0; i--) {
       File file = files[i];
@@ -73,6 +70,7 @@ public class IOSMediaTransferPrune {
         filesDeleted++;
       }
     }
+    return filesDeleted;
   }
 
   /**
