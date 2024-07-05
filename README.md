@@ -24,7 +24,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Deletes original images and videos if an edited version exists and cleans up .AAE files leftover from iPhone media transfers.
+Deletes original images if an edited version exists and removes leftover .AAE files from iPhone media transfers.
 
 <p align="right"><a href="#top">Back to Top</a></p>
 
