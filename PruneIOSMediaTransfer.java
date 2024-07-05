@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Deletes original images and videos if an edited version exists 
- * and cleans up .AAE files leftover from iPhone media transfers.
+ * Deletes original media if an edited version exists and 
+ * removes leftover .AAE files from iPhone media transfers.
  *
  * @author Danny Nguyen
  * @version 2.3.0
